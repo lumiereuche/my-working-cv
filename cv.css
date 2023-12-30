@@ -6,31 +6,40 @@
 
 
 
-.main {
-    display: flex;
-    flex-direction: row;
-    gap: 35px;
-    
-} 
-
-ul {
-    text-transform:uppercase ;
-    margin-bottom: 5px;
-    margin-top: 10px;
-    text-decoration: underline;
-}
-
 body {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     background-color: lightblue;
 }
 
 h1 {
     letter-spacing: 10px;
+    display: flex;
+    justify-content: center;
 }
-h2 {
-    text-decoration: underline;
+ul {
+    border-bottom: 3px solid;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-transform: capitalize;
+    font-size: x-large;
+}
+
+.uche1 {
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    margin: 10px;
+}
+
+.uche2 {
+    display:flex;
+    justify-content: center;
+    list-style: none;
+   
+}
+
+h2 {
+    text-transform: capitalize;
+    border-bottom: 3px solid;
 }
